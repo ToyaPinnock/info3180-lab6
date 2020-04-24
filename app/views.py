@@ -26,6 +26,7 @@ def index(path):
     return app.send_static_file('index.html')
 
 
+
 ###
 # The functions below should be applicable to all Flask apps.
 ###

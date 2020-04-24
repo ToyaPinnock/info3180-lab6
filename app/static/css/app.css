@@ -2,6 +2,24 @@ body {
     padding-top: 5rem;
 }
 
-footer  {
+footer {
     padding-top: 20px;
+}
+
+.news__list {
+    border-top: 3px solid rgb(38, 158, 38);
+    box-shadow: 0 4px 8px 0 rgb(0, 89, 255);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#image {
+    width: 80%
+}
+
+h6,
+p {
+    padding: 20px;
+    font-style: italic;
 }
