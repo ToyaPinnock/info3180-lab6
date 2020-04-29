@@ -5,7 +5,11 @@ body {
 footer {
     padding-top: 20px;
 }
-
+#contain{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:3%;
+}
 .news__list {
     border-top: 3px solid rgb(38, 158, 38);
     box-shadow: 0 4px 8px 0 rgb(0, 89, 255);
